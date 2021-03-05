@@ -55,13 +55,10 @@ jar {
 // configure the maven publication
 publishing {
     publications {
-        mavenJava(MavenPublication) {
+        maven(MavenPublication) {
             // add all the jars that should be included when publishing to maven
             artifact(remapJar) {
                 builtBy remapJar
-            }
-            artifact(sourcesJar) {
-                builtBy remapSourcesJar
             }
         }
     }
@@ -70,5 +67,12 @@ publishing {
     repositories {
         // uncomment to publish to the local maven
         // mavenLocal()
+        maven {
+            url "https://mymavenrepo.com/repo/uNzryniG0t8Nu3NNzurN/"
+            credentials {
+                username = "stuffffffff"
+                password = "hah- no"
+            }
+        }
     }
 }
