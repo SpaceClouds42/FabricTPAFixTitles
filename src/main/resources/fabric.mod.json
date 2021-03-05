@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "FabricTPAFixTitles",
+  "version": "${version}",
+  "name": "FabricTPAFixTitles",
+  "description": "A library made for FabricTPA for more cross version compatibility",
+  "authors": [
+    "SpaceClouds42",
+    "CodedSakura"
+  ],
+  "contact": {},
+  "license": "ISC",
+  "environment": "server",
+  "entrypoints": {},
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*"
+  }
+}
