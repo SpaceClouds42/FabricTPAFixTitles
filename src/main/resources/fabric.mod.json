@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "FabricTPAFixTitles",
+  "id": "fabrictpafixtitles",
   "version": "${version}",
   "name": "FabricTPAFixTitles",
   "description": "A library made for FabricTPA for more cross version compatibility",
@@ -10,7 +10,7 @@
   ],
   "contact": {},
   "license": "ISC",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {},
   "depends": {
     "fabricloader": ">=0.11.2",
